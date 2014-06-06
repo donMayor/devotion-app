@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+    <!-- Subject Label -->
+    <TextView
+            android:id="@+id/content_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingTop="8dip"
+            android:paddingLeft="8dip"
+            android:paddingBottom="4dip"
+            android:textSize="15sp"/>
+</RelativeLayout>
